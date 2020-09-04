@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to left, #8942a8, #ba382f);
+  font-family: "Arial";
+  color: #ffffff;
+  font-family: "Orbitron, sans serif"; }
+
+.nav {
+  list-style: none;
+  text-align: center;
+  padding: 20px 0 20px 0; }
+  .nav li {
+    display: inline-block;
+    padding-right: 50px; }
+    .nav li a {
+      text-decoration: none;
+      color: #ffffff; }
+
+h1 {
+  text-align: center;
+  font-family: "Orbitron, sans serif"; }
+
+h2 {
+  border: 2px solid #ffffff;
+  padding: 10px;
+  width: 160px;
+  font-family: "Orbitron, sans serif"; }
+
+.column {
+  width: 48%;
+  margin: 0 1%;
+  float: left;
+  line-height: 25px; }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+p {
+  text-align: center;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */

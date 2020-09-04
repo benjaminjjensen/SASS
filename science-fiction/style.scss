@@ -1,0 +1,54 @@
+$brand-background: linear-gradient(to left, #8942a8, #ba382f);
+$brand-color: #ffffff;
+$brand-font: 'Arial';
+$brand-text: 'Orbitron, sans serif';
+$brand-decoration: none;
+$border: 2px solid $brand-color;
+$placeText: center;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: $brand-background;
+  font-family: $brand-font;
+  color: $brand-color;
+  font-family: $brand-text; 
+}
+.nav {      //nested style
+  list-style: $brand-decoration;
+  text-align: $placeText;
+  padding: 20px 0 20px 0;
+    li {
+     display: inline-block;
+     padding-right: 50px;
+       a {
+         text-decoration: $brand-decoration;
+         color: $brand-color;
+    }
+  }
+}
+h1 {
+  text-align: $placeText;
+  font-family: $brand-text; 
+}
+h2 {
+ border: $border;
+ padding: 10px;
+ width: 160px;
+ font-family: $brand-text; 
+}
+.column
+{
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+    line-height: 25px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+p {
+text-align: $placeText;
+color: lighten($brand-color, 5%); //function
+}
